@@ -1,0 +1,8 @@
+{
+    "rewrites":[
+        {
+            "sorce":"/(.*)",
+            "destination": "/"
+        }
+    ]
+}
