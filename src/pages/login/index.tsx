@@ -43,6 +43,7 @@ export function Login(){
 
       <form onSubmit={handleSubmit}  className="w-full max-w-xl flex flex-col px-2">
         <Input
+        className="w-full p-2 border-b-2 border-gray-500 rounded-md bg-transparent text-white focus:border-b-white focus:outline-none"
           placeholder="Digite o seu email..."
           type="email"
           value={email}
@@ -50,6 +51,7 @@ export function Login(){
         />
 
         <Input
+          className="w-full p-2 border-b-2 border-gray-500 rounded-md bg-transparent text-white focus:border-b-white focus:outline-none"
           placeholder="*********"
           type="password"
           value={password}
